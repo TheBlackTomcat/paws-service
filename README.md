@@ -1,1 +1,1 @@
-# paws-service
+# pawzzle-service
