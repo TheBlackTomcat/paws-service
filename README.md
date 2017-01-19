@@ -1,1 +1,1 @@
-# pawzzle-service
+# pawzzle-service-library
