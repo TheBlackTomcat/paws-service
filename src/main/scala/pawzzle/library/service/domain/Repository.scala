@@ -1,4 +1,4 @@
-package paws.library.service.domain
+package pawzzle.library.service.domain
 
 import java.util.UUID
 

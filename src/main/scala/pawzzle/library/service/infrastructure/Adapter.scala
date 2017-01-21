@@ -1,4 +1,4 @@
-package paws.library.service.infrastructure
+package pawzzle.library.service.infrastructure
 
 /**
   * Marker trait for infrastructure adapters as defined by the Ports and Adapters (Hexagonal) architectural style.

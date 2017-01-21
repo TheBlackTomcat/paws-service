@@ -1,10 +1,8 @@
-lazy val service = (project in file("."))
+lazy val `pawzzle-service-library` = (project in file("."))
   .settings(
-    name := "paws-service-library",
+    name := "pawzzle-service-library",
     version := "0.1.0-SNAPSHOT",
-    organization := "com.theblacktomcat.paws",
+    organization := "com.theblacktomcat.pawzzle",
     scalaVersion := "2.12.1",
-    libraryDependencies ++= Seq(
-
-    )
+    libraryDependencies ++= Seq()
   )
