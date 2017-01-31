@@ -14,5 +14,5 @@ object ServiceBootstrap {
     * @tparam S The trait type representing the service contract.
     * @return An instance of the concrete class representing the service implementation.
     */
-  def boot[S <: Service](): S = Class.forName(Configuration.getProp("service.class")).newInstance().asInstanceOf[S]
+  def boot[S <: Service](): S = Class.forName(Configuration().getProp("service.class")).newInstance().asInstanceOf[S]
 }
